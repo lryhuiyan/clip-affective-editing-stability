@@ -1,0 +1,7 @@
+emotion,dominant_best_edit,dominant_count,num_images,dominant_edit_ratio
+happy,all_attributes,25,100,0.25
+lonely,all_attributes,79,100,0.79
+scary,all_attributes,64,100,0.64
+peaceful,all_attributes,43,100,0.43
+romantic,temperature_only,37,100,0.37
+hopeful,all_attributes,29,100,0.29

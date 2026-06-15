@@ -1,0 +1,47 @@
+cat > .gitignore <<'EOF'
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+huiyan/
+.venv/
+venv/
+env/
+
+# VS Code local settings
+.vscode/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Raw images
+images/multi/*
+!images/multi/.gitkeep
+images/multi_original_backup/
+images/multi_fixed/
+
+# Temporary or old outputs
+results/
+backups/
+
+# Large per-image experiment outputs
+results_multi/test_*/
+
+# Model files
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+EOF
+# Private case study images
+case_studies/test_001_happy/
