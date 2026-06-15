@@ -2,8 +2,7 @@
 
 ## 1. Project Overview
 
-This project explores how low-level visual attributes influence the emotional perception of images. Instead of directly generating new images, the project performs counterfactual image editing by adjusting brightness, contrast, saturation, and color temperature. Then, CLIP image-text similarity is used to evaluate whether these edits improve the alignment between an image and a target emotion.head -20 README.md
-tail -40 README.md
+This project explores how low-level visual attributes influence the emotional perception of images. Instead of directly generating new images, the project performs counterfactual image editing by adjusting brightness, contrast, saturation, and color temperature. Then, CLIP image-text similarity is used to evaluate whether these edits improve the alignment between an image and a target emotion.
 
 The main goal is not to build a universal emotional filter. Instead, this project analyzes whether fixed affective editing presets are stable across different images and emotional targets.
 
